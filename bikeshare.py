@@ -44,7 +44,7 @@ def get_filters():
 
     print('-'*40)
     return city, month, day
-
+#1#
 """__________________________________________________________________________________________________"""
 
 def load_data(city, month, day):
@@ -72,7 +72,7 @@ def load_data(city, month, day):
         df = df[df['day']==day.title()]
     
     return df
-
+#2#
 """__________________________________________________________________________________________________"""
 
 def time_stats(df):
@@ -105,7 +105,7 @@ def time_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#3#
 """__________________________________________________________________________________________________"""
 
 def station_stats(df):
@@ -135,7 +135,7 @@ def station_stats(df):
         
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#4#
 """__________________________________________________________________________________________________"""
 
 def trip_duration_stats(df):
@@ -160,7 +160,7 @@ def trip_duration_stats(df):
         
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#5#
 """__________________________________________________________________________________________________"""
 
 def user_stats(df):
@@ -191,7 +191,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#6#
 """__________________________________________________________________________________________________"""
 
 #Running program#

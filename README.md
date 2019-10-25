@@ -16,5 +16,11 @@ washington.csv
 ### Credits
 https://docs.python.org/3/library/
 
+<<<<<<< HEAD
 ### Location
 Egypt
+||||||| merged common ancestors
+=======
+### Time
+21:28
+>>>>>>> refactoring
